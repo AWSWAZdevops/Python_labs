@@ -1,0 +1,13 @@
+stages: 
+  - build 
+  - test 
+
+build_job:
+  stage: build
+  script: 
+  - echo "this is the first build job for this repo"
+
+test_job:
+  stage: test
+  script: 
+  - echo "test stage"
