@@ -10,4 +10,4 @@ build_job:
 test_job:
   stage: test
   script: 
-  - echo "test stage"
+  - echo "test stage 2"
